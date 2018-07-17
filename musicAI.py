@@ -12,7 +12,7 @@ import magenta.music as mm
 
 
 source_folder = 'C:\\Users\\iD Student\\PycharmProjects\\MusicAI\\midiFiles' #input('Enter the path of the midi files.')
-out_file = 'C:\\Users\\iD Student\\PycharmProjects\MusicAI\\output_test_dataset.tfrecord'#input('Enter the path for the output sequence training file:')
+out_file = 'C:\\Users\\iD Student\\PycharmProjects\MusicAI\\large_dataset_test.tfrecord'#input('Enter the path for the output sequence training file:')
 #the first None arg is usually the python file name
 args = [None, '--input_dir', source_folder, '--output_file', out_file]
 
